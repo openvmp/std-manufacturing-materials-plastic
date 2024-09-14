@@ -1,0 +1,48 @@
+name: /pub/std/manufacturing/material/plastic
+
+materials:
+  pla:
+    formal: PLA
+    full: Polylactic Acid
+    desc: |
+      PLA (Polylactic Acid) is a semi-crystalline thermoplastic polymer.
+      Made from cornstarch or sugarcane it is tough and resistant while also being biodegradable.
+      However, this origin can cause it to not be resistant to water or chemicals.
+    url: https://en.wikipedia.org/wiki/Polylactic_acid
+    # img: images/pla.png
+    density: 0.001320 # g/mm^3
+    tags:
+      - low-cost
+      - impact-resistant
+      - biodegradable
+  abs:
+    formal: ABS
+    full: Acrylonitrile Butadiene Styrene
+    desc: |
+      ABS (Acrylonitrile Butadiene Styrene) is an amphorus thermoplastic polymer known for its durability and impact resistance.
+      Parts made from this material will hold up well to wear and tear.
+      A common example of an ABS material are LEGO building blocks.
+      ABS is composed of about 50% styrene with various amounts of butadiene and acrylonitrile.
+      The styrene provides the strength in this molecule, while the butadiene provides toughness,
+      and the acrylonitrile provideds the chemical resistance and heat stablitity.
+    url: https://en.wikipedia.org/wiki/Acrylonitrile_butadiene_styrene
+    density: 0.00107
+    tags:
+      - heat-resistant
+      - impact-resistant
+      - chemical-resistant
+  nylon:
+    formal: Nylon
+    full: Nylon
+    desc: |
+      Nylon (Polyamide), or PA, is a semi-crystaline polymer made from two monomers with each monomer containing six carbon atoms.
+      There is another form of Nylon that has twelve carbon atoms.
+      The amount of carbon atoms effects the stiffness of the material and the melting point.
+      It is tough, flexible, and non-biodegradable.
+      However, due to its structure it is prone to absorb water which causes a chemical change of the material and effects the material properties.
+    url: https://en.wikipedia.org/wiki/Nylon
+    density: 0.00115
+    tags:
+      - durable
+      - abraision-Reistant
+      - flexible
